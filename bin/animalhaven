@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require './lib/animal_scraper'
+AnimalHavenScraper::CLI.new.call
+
+#note: nokogiri and pry added as dependencies in the gemspecfile
